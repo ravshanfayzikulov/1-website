@@ -1,0 +1,152 @@
+.sidebar{
+  position: fixed;
+  top: 55px;
+  bottom: 0px;
+  left: 0px;
+  width: 350px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(81, 80, 80) rgb(92, 92, 92);
+  
+  
+  
+
+  
+  
+  
+}
+.sidebar-link{
+display: flex;
+height: 60px;
+align-items: center;
+font-size: 17px;
+margin-left: 10px;
+color: rgb(240, 236, 236);
+
+
+
+
+
+}
+.sidebar-link img{
+  margin-right: 10px;
+}
+.border{
+  display: block;
+  font-family: roboto, arial;
+  font-weight: 500;
+  border-top-width: 1px;
+  border-top-style: solid;
+  font-size: 17px;
+  border-top-color: rgb(62, 64, 66);
+  padding-top: 20px;
+  color: gray;
+  line-height: 16.08px;
+  margin-left: 20px;
+  margin-bottom: 10PX;
+ 
+}
+.pic-2{
+  height: 40px;
+  border-radius: 30px;
+
+}
+.pic{
+  height: 40px;
+  border-radius: 30px;
+  margin-left: 11px;
+ 
+}
+.sidebar-link:hover{
+  border-radius: 10px;
+ background-color: rgb(81, 80, 80);
+ transition: 0.15s;
+}
+.sidebar-link:active{
+  opacity: 0.5;
+}
+
+.terms{
+  font-size: 12px;
+  margin-top: 15px;
+  color: gray;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.right-sidebar{
+  position: fixed;
+  flex-direction: column;
+  display: flex;
+  margin-top: 54px;
+  margin-right: 1px;
+  top: 2px;
+  right: 0px;
+  bottom: 550px;
+  width: 350px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(62, 64, 66);
+  flex-shrink: 0;
+}
+.right-sidebar-link:hover{
+  background-color: rgb(81, 80, 80) ;
+  border-radius: 10px;
+  transition: 0.15s;
+}
+.right-sidebar-link:active{
+opacity: 0.5;
+}
+.more{
+  margin-top: 20px;
+  display: flex;
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  height: 35px;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 1px;
+  border: none;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 900;
+  padding-left: 10px;
+  margin-top: 10px;
+  color: rgb(164, 161, 161);
+}
+.more:hover{
+  background-color: rgb(81, 80, 80) ;
+}
+.more:active{
+  opacity: 0.5;
+}
+.right-sidebar-link{
+  display: flex;
+  
+  height: 50px;
+  align-items: center;
+  font-size: 17px;
+  margin-left: 20px;
+  color: rgb(240, 236, 236);
+
+  font-family: roboto, arial;
+  font-weight: 500;
+  font-size: 17px;
+  color: gray;
+
+}
+.right-sidebar::-webkit-scrollbar-thumb {
+  background-color: rgb(81, 80, 80);
+  border-radius: 40px;
+  
+}
+
+.right-sidebar-link i{
+  background-color:  rgb(217, 212, 212);
+  border: none;
+  border-radius: 20px;
+  margin-right: 8px;
+}

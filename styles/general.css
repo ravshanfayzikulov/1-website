@@ -1,0 +1,11 @@
+
+body{
+  font-family: roboto,arial;
+  background-color: #121212; 
+  color: #ffffff; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  font-weight: 500;
+}
